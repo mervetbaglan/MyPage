@@ -1,0 +1,128 @@
+
+  body {
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+  }
+  
+  h1 {
+    color: #66bfbf;
+    font-size: 5.5rem;
+    margin: 90px auto 20px auto;
+    font-family: "Sacramento", cursive;
+    font-weight: bold;
+  }
+  
+  h2 {
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-align: center;
+
+  }
+
+  .top-container{
+    background-color: #D9F9F4;
+    position: relative;
+    padding-top: 50px;
+  }
+
+
+  .cloud1 {
+    position: absolute;
+    right: 300px;
+    top: 5px;
+  }
+  
+  .cloud2 {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+  }
+
+  .profil{height: 260px;
+    width: 220px;
+    border-radius: 0.75rem;
+   margin-bottom: 30px;}
+
+  #profil-card{
+    align-items: center;
+    margin-left: 35%;
+    padding-bottom: 30px;
+    padding-top: 40px;
+
+   }
+
+  .profile-container{
+    background-color: #FDFDFD;
+    padding-bottom: 40px;
+    padding-top: 80px;
+  }
+
+
+  .projects-container{
+    padding-top: 30px;
+    background-color: #FDFDFD;
+    padding-bottom: 80px;
+
+
+  }
+
+  .card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .card{
+      margin-left: 50px;
+      background-color: #F4F9F4;
+  }
+
+  .card-img-top{
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  a{color: black;
+ font-family: "Montserrat", sans-serif;
+ margin-top: 8px;
+}
+
+#tindog{padding-left: 15px;
+  padding-right: 15px;
+}
+
+.contact-container{
+  padding-top: 30px;
+  background-color: #FDFDFD;
+  padding-bottom: 60px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.footer-container{
+  background-color: #D9F9F4;
+  font-size: 0.75rem;
+  padding: 10px 0;
+}
